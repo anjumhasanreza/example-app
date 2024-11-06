@@ -20,3 +20,17 @@
 .contact form .form-control {
     border-radius: 5px;
 }
+
+
+/* Adjust the height of the carousel */
+.carousel-item img {
+    max-height: 70vh; /* Adjust the height as needed */
+    object-fit: cover;
+}
+
+/* Style for carousel captions */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay behind text */
+    padding: 10px;
+    border-radius: 5px;
+}

@@ -1,0 +1,22 @@
+/* Custom Styles */
+.hero {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio img {
+    margin-bottom: 10px;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.portfolio img:hover {
+    transform: scale(1.05);
+}
+
+.contact form .form-control {
+    border-radius: 5px;
+}
